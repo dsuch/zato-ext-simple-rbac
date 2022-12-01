@@ -1,14 +1,10 @@
 from setuptools import setup
 
-with open('README.rst') as readme:
-    next(readme)
-    long_description = ''.join(readme).strip()
-
 setup(
-    name='simple-rbac',
+    name='zato-ext-simple-rbac',
     version='0.1.1',
     description='A simple role based access control utility',
-    long_description=long_description,
+    long_description='',
     keywords='rbac permission acl access-control',
     author='Jiangge Zhang',
     author_email='tonyseek@gmail.com',
